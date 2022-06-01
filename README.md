@@ -44,10 +44,15 @@ We will start with a brief introduction of each pattern before jumping into the 
 2. Make sure to pull from the central repository every day as files will updated periodically.
 3. Enter the students folder in your fork and create a folder with your name in camelCase (eg *arielAvshalom*).
 4. From this point on, follow this strategy for committing your work:
+  
   A. Create a branch for a week (create one on our first day for the first 5 days) and call is week_# (eg (week_1*)
+  
   B. For every day create a new issue labeled day_# (eg *day_1*)
+  
   C. For each issue, make sure to commit often and periodically with helpful comments (eg *started problem #...* or *completed problem #...* or *attempted but could not solve problem #...* etc)
+  
   D. Once you finish your work for the day, close the issue
+  
   E. Once the week is complete, merge the branch to your repository and then make a pull request to the central repository.
 
 </details>
