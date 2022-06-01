@@ -103,19 +103,29 @@ We will start with a brief introduction of each pattern before jumping into the 
 
 ## Interviews 
 
+<details><summary>Details</summary>
+
 - Each student will be given one of two problems with solutions the day before class
 - You will be assigned a partner on the day of class
 - You will interview the partner and learn to think like an interviewer, then the interviewer will fill out a Google Form with their thoughts on the process
 - After the first interview, switch roles and repeat
 - Submit your solutions under the day of the interview in your assignment folder as interview_week_day
 
+</details>
+
 ## Homework
+
+<details><summary>Details</summary>
 
 - You will complete all algos listed in the syllabus on a weekly basis. 
 - We will review your comments/high level overview & code to identify strengths and weaknesses within your understanding of each pattern.
 - You will NOT complete your homework all in one shot & will NOT save. Attempting to master Data-structures and Algorithms requires constant exposure to these questions and solutions. You will create a PR through GitHub each night solving at minimum one problem which you were not able to solve during class time.
 
+</details>
+	
 ## What if the problem is too hard? Can't solve it in time?
+
+<details><summary>Details</summary>
 
 1. Spend 15-30 minutes trying to solve the problem if you are not able to, write and submit a
 program containing the following:
@@ -147,3 +157,5 @@ program containing the following:
 	- Many will struggle with the common coding patterns for the first few times they encounter them, it is extremely important to learn how to move on with the intentions of revisiting said topic at a later date.
 		example:
 		- While we were young we would be assigned tasks like brushing our teeth, bathing, etc... Our parents would surely not allow us 			to "attempt" to brush our teeth for 90 minutes in pursuit of perfection at this stage in our lives, instead, they would likely step in and "take over" to ensure that we got it done. The emphasis was never on getting it perfect in one singular session, but, achieving muscle memory and improvement of motor skills through repition.
+	
+</details>
