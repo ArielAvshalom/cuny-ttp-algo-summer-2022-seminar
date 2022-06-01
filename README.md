@@ -8,7 +8,7 @@ Dates: June 1st (Wed) to June 23th (Thur)
 
 Lead Instructor: Ariel Avshalom - <csciprofessor AT gmail DOT com>
 
-Lead TA: Abie Scholz
+Lead TA: Abi Scholz
 
 Async TA: Chao
 
