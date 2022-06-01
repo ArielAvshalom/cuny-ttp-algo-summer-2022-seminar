@@ -1,16 +1,35 @@
-# CUNY TTP: Technical Interview Prep (Summer 2022)
+# 📚 Tech Talent Pipeline Residency: Technical Interview Prep (Summer 2022)
 
-Class Days: Mon - Thur
+- Class Days: 
+  - Mon - Thur 9am to 12pm EST
+  - Dates: June 1st (Wed) - June 23th (Thur)    
 
-Class Times: 9am to 12pm EST
+- [:movie_camera: Zoom Link](https://us02web.zoom.us/j/85069833213?pwd=R0tXb2tvSnVsSHFybTcrd2ZYRDY2UT09)
+- [:computer: Slack](https://cunyttp.slack.com/archives/C02N91RHGM9)
+- [:notebook: OneNote](https://onedrive.live.com/view.aspx?resid=AD20B999A1AAE67D%2192815&id=documents
+onenote:https://d.docs.live.net/ad20b999a1aae67d/Documents/Tech%20Talent%20Pipeline%20Summer%202022%20Technical%20Interview%20Prep/)
 
-Dates: June 1st (Wed) to June 23th (Thur)    
+## :shipit: Your Teaching Team
 
-Lead Instructor: Ariel Avshalom - (csciprofessor AT gmail DOT com)
+### Lead Instructor: Ariel Avshalom(He/Him)
 
-Lead TA: Abi Scholz
+- [:e-mail: Email](csciprofessor+ttp@gmail.com)
+- [:card_file_box: LinkedIn](https://www.linkedin.com/in/arielavshalom)
+- [:octocat: Github](http://github.com/ArielAvshalom)
 
-Async TA: Chao
+### Lead TA: Abi Scholz
+
+- [:e-mail: Email](abi.scholz@gmail.com)
+- [:card_file_box: LinkedIn](https://www.linkedin.com/in/abischolz/)
+- [:octocat: Github](https://github.com/abischolz)
+
+### Async TA: Chao
+
+### Program Manager: Allan James S. Lapid
+
+- [:e-mail: Email](ajLapid718@gmail.com)
+- [:card_file_box: LinkedIn]()
+- [:octocat: Github]()
 
 ## Course Overview
 
