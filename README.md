@@ -6,8 +6,7 @@
 
 - [:movie_camera: Zoom Link](https://us02web.zoom.us/j/85069833213?pwd=R0tXb2tvSnVsSHFybTcrd2ZYRDY2UT09)
 - [:computer: Slack](https://cunyttp.slack.com/archives/C02N91RHGM9)
-- [:notebook: OneNote](https://onedrive.live.com/view.aspx?resid=AD20B999A1AAE67D%2192815&id=documents
-onenote:https://d.docs.live.net/ad20b999a1aae67d/Documents/Tech%20Talent%20Pipeline%20Summer%202022%20Technical%20Interview%20Prep/)
+- [:notebook: OneNote](https://1drv.ms/u/s!An3mqqGZuSCthdUP2viXhI2w4pePPg?e=DRwaEA)
 
 ## :shipit: Your Teaching Team
 
