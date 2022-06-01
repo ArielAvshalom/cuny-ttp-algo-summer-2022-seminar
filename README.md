@@ -12,13 +12,13 @@
 
 ### Lead Instructor: Ariel Avshalom(He/Him)
 
-- <a href="mailto:csciprofessor+ttp@gmail.com">Ariel's csciprof email</a>
+- <a href="mailto:csciprofessor+ttp@gmail.com">:e-mail: Email</a>
 - [:card_file_box: LinkedIn](https://www.linkedin.com/in/arielavshalom)
 - [:octocat: Github](http://github.com/ArielAvshalom)
 
 ### Lead TA: Abi Scholz
 
-- <a href="abi.scholz@gmail.com">:e-mail: Email</a>
+- <a href="mailto:abi.scholz@gmail.com">:e-mail: Email</a>
 - [:card_file_box: LinkedIn](https://www.linkedin.com/in/abischolz/)
 - [:octocat: Github](https://github.com/abischolz)
 
@@ -26,7 +26,7 @@
 
 ### Program Manager: Allan James S. Lapid
 
-- <a href="ajLapid718@gmail.com">:e-mail: Email</a>
+- <a href="mailto:ajLapid718@gmail.com">:e-mail: Email</a>
 - [:card_file_box: LinkedIn](https://www.linkedin.com/in/allan-james-lapid/)
 - [:octocat: Github](https://github.com/ajLapid718)
 
