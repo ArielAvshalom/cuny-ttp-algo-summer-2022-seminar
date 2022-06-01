@@ -30,6 +30,19 @@
 - [:card_file_box: LinkedIn]()
 - [:octocat: Github]()
 
+## :watch: Daily Schedule (Subject to Change)
+
+<details><summary>Click to Expand</summary>
+
+9 AM - 10:30 AM - :speaking_head: Lecture, Review, Demo
+
+10:30 AM - 11:45 AM - 🎆 One-on-One interview sessions
+
+11:45 AM - 12:00 PM - :keyboard: Quick QL check on Zoom, explanation of homework requirements
+
+</details>
+
+
 ## Course Overview
 
 <details><summary>Click to Read About the Course!</summary>
