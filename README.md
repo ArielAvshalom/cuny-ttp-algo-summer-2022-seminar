@@ -40,6 +40,8 @@
 
 11:45 AM - 12:00 PM - :keyboard: Quick QL check on Zoom, explanation of homework requirements
 
+Onwards: work on assignments and git gud!
+
 </details>
 
 
@@ -98,3 +100,50 @@ We will start with a brief introduction of each pattern before jumping into the 
 - Avoid merge conflicts, think before you commit!
 
 </details>
+
+## Interviews 
+
+- Each student will be given one of two problems with solutions the day before class
+- You will be assigned a partner on the day of class
+- You will interview the partner and learn to think like an interviewer, then the interviewer will fill out a Google Form with their thoughts on the process
+- After the first interview, switch roles and repeat
+- Submit your solutions under the day of the interview in your assignment folder as interview_week_day
+
+## Homework
+
+- You will complete all algos listed in the syllabus on a weekly basis. 
+- We will review your comments/high level overview & code to identify strengths and weaknesses within your understanding of each pattern.
+- You will NOT complete your homework all in one shot & will NOT save. Attempting to master Data-structures and Algorithms requires constant exposure to these questions and solutions. You will create a PR through GitHub each night solving at minimum one problem which you were not able to solve during class time.
+
+## What if the problem is too hard? Can't solve it in time?
+
+1. Spend 15-30 minutes trying to solve the problem if you are not able to, write and submit a
+program containing the following:
+
+	As comments:
+
+	- a description of the approach(es) you thought of
+	- a description of where you got stuck on these approaches. For
+  		example:
+    	- Was there a flaw in the approach you found and you had to think
+      of a new one? What was the flaw? How did you try to get around
+      it?
+    	- Were you just unable to implement the approach? Which part(s)
+      were you unable to implement, and why?
+
+2. If you get stuck reverse engineer the existing solution and take a few moments to digest it. (*a few moments may take longer for leetcode hard)
+
+	As code:
+
+	- Type out the the program in your language by referencing the solution provided (2-3 times, No copy/pasting)
+	- Reference leetcode discussion and reverse engineer a solution which fits most with your style.
+		example:
+		- If you seldom use higher order functions, then do not attempt to reverse engineer solutions which focus on these
+		- If you prefer a certain implementation of a data-structure over another, please cater to your strengths
+
+3. Move on to the next problem.
+	
+	As a mindset:
+	- Many will struggle with the common coding patterns for the first few times they encounter them, it is extremely important to learn how to move on with the intentions of revisiting said topic at a later date.
+		example:
+		- While we were young we would be assigned tasks like brushing our teeth, bathing, etc... Our parents would surely not allow us 			to "attempt" to brush our teeth for 90 minutes in pursuit of perfection at this stage in our lives, instead, they would likely step in and "take over" to ensure that we got it done. The emphasis was never on getting it perfect in one singular session, but, achieving muscle memory and improvement of motor skills through repition.
