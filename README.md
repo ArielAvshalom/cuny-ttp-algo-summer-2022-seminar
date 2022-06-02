@@ -22,7 +22,7 @@
 - [:card_file_box: LinkedIn](https://www.linkedin.com/in/abischolz/)
 - [:octocat: Github](https://github.com/abischolz)
 
-### Async TA: Chao
+### Async TA: Chao Lai
 
 ### Program Manager: Allan James S. Lapid
 
@@ -159,3 +159,29 @@ program containing the following:
 		- While we were young we would be assigned tasks like brushing our teeth, bathing, etc... Our parents would surely not allow us 			to "attempt" to brush our teeth for 90 minutes in pursuit of perfection at this stage in our lives, instead, they would likely step in and "take over" to ensure that we got it done. The emphasis was never on getting it perfect in one singular session, but, achieving muscle memory and improvement of motor skills through repition.
 	
 </details>
+
+## Week 1
+
+Class Session 1: Goals, HackerRank assessment, Intro to Big O
+
+Class Session 2: Finish Big O, Cyclic Sort, Interview Session 1
+
+Class Session 3: Fast and Slow Pointers, Intro to Technical Interviewing (a step by step guide)
+
+Class Session 4: Merge Intervals
+
+Class Session 5: Reverse Linked List in Place
+	- Special Session: Learn a pattern and explain it to your candidate
+
+## Week 2
+
+CLass Session 6: Sliding Window
+
+Class Session 7: BFS and DFS Trees
+
+Class Session 8: Two Pointers
+
+Class Session 9: Review of Materials and Prep for Interview Sessions
+
+## Week 3
+
