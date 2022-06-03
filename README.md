@@ -24,9 +24,7 @@
 
 ### Async TA: Chao Lai
 
--
 - [:card_file_box: LinkedIn](https://www.linkedin.com/in/chao-lai-2900/)
--
 
 ### Program Manager: Allan James S. Lapid
 
