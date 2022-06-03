@@ -17,7 +17,6 @@ const cyclic_sort = function (nums) {
     else
       ++i;
   }
-  console.log(nums)
   return nums;
 };
 
