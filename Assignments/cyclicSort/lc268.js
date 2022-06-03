@@ -1,28 +1,14 @@
 // Problem Statement #
 
-// We are given an array containing ‘n’ distinct numbers taken from the range 0 to ‘n’. 
-// Since the array has only ‘n’ numbers out of the total ‘n+1’ numbers, find the missing number.
+// We are given an array containing ‘n’ objects. Each object, when created, was assigned a unique number from 1 to ‘n’ based on their creation sequence. This means that the object with sequence number ‘3’ was created just before the object with sequence number ‘4’.
 
-const find_missing_number = function(nums) {
+// Write a function to sort the objects in-place on their creation sequence number in O(n) and without any extra space. For simplicity, let’s assume we are passed an integer array containing only the sequence numbers, though each number is actually an object.
+
+const cyclic_sort = function (nums) {
   // TODO: Write your code here
-  let searchFor=0;
-  let i=0;
-  while(i < nums.length){
-    let j = nums[i] - 1;
-    if(nums[i] != nums[j]){
-      [nums[i], nums[j]] = [nums[j], nums[i]];
-    }
-      else
-        ++i;
-  }
-
-  for(let j= -1; j<nums.length; ++j){
-    if(nums[j] != j+1)
-      searchFor = j+1;
-  }
-  return searchFor;
+  return nums;
 };
 
-console.log(find_missing_number([4, 0, 3, 1]));
-console.log(find_missing_number([8, 3, 5, 2, 4, 6, 0, 1]));
-
+console.log(`${cyclic_sort([3, 1, 5, 4, 2])}`);
+console.log(`${cyclic_sort([2, 6, 4, 3, 1, 5])}`);
+console.log(`${cyclic_sort([1, 5, 6, 4, 3, 2])}`);
