@@ -162,6 +162,8 @@ program containing the following:
 
 ## Week 1
 
+<details><summary>Details</summary>
+
 Class Session 1: Goals, HackerRank assessment, Intro to Big O
 
 Class Session 2: Finish Big O, Cyclic Sort, Interview Session 1
@@ -173,7 +175,11 @@ Class Session 4: Merge Intervals
 Class Session 5: Reverse Linked List in Place
 	- Special Session: Learn a pattern and explain it to your candidate
 
+</details>
+
 ## Week 2
+
+<details><summary>Details</summary>
 
 CLass Session 6: Sliding Window
 
@@ -183,5 +189,19 @@ Class Session 8: Two Pointers
 
 Class Session 9: Review of Materials and Prep for Interview Sessions
 
+</details>
+
 ## Week 3
 
+## :school: Curriculum
+
+### Pre Program Prep
+
+Read up on and relearn materials from Data Structures and Algorithms Courses
+
+### Week 1
+
+| Day    |   Topic  |   Recording Links   |   Course Materials    |    Classwork   |   Assignment  |
+|:-------:|:--------:|:-------------------:|:---------------------:|:--------------:|:-------------:|
+|1 - June 1|Introductions and Big O|[:tv:](https://us02web.zoom.us/rec/share/y6_yCN2rzly7wMVFMt5r2IVbuwmhqP_6zaReISvwAAIqTxGw-839vqjxY6We35A.ALA0bJZ4cLZLw5Zq)|[Big O Lecture Slides](https://github.com/ArielAvshalom/cuny-ttp-algo-summer-2022-seminar/blob/dba6ed815269210f2a98823de6caabafce287133/Presentations/Big%20O%20Complexity%20V2.pptx)||Practice assignment question|
+|2 - June 2|Big O and Cyclic Sort|[:tv:](https://us02web.zoom.us/rec/share/v9U9e-wnpibYYjQf_VNSR5g4q-82m54Yt_om0kLT7fTClcLMeAR57GNGgGENniZ7.NfIKLd-ceARQQJqx)|[Cyclic Sort Slides and OneNote](https://docs.google.com/presentation/d/1sxnE7gPb9FhtDL3dUCu6O09t_fh_oOzm/edit?usp=sharing&ouid=112690378091977071463&rtpof=true&sd=true)|||[Cyclic Sort Coding Questions](https://github.com/ArielAvshalom/cuny-ttp-algo-summer-2022-seminar/tree/main/Assignments/cyclicSort)|
