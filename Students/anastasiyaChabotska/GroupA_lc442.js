@@ -5,21 +5,26 @@
 const find_all_duplicates = function(nums) {
   duplicateNumbers = [];
 
-  for(let i=0; i<nums.length; i++){
-    if(nums[i]==i+1)
-    continue;
+  let i = 0;
 
-    while(nums[i]!=i+1){
-
+  while(i < nums.length){
+    if (nums[i]!=i+1){
       let temp = nums[nums[i]-1];
       nums[nums[i]-1] = nums[i];
       nums[i] = temp;
-
-      if (nums[i]==nums[nums[i]-1]){
-        duplicateNumbers.push(nums[i]);
-        break;
-      }
+      //avoid infinite swapping of duplicates
+      if(nums[i]==nums[nums[i]-1])
+      i++;
     }
+    else 
+      i++;
+    
+  }
+  console.log(nums);
+  for (let i=0; i <nums.length; i++){
+    if(nums[i]!=i+1)
+      duplicateNumbers.push(nums[i])
+    
   }
   return duplicateNumbers;
 };
@@ -56,8 +61,7 @@ Good luck!!!
 //     j = nums[i] - 1;
 //     //3 != nums[2]
 //     if (nums[i] != nums[j]) {
-//       console.log(nums[i], nums[j])
-//       console.log("swap");
+    
 
 //       [nums[i], nums[j]] = [nums[j], nums[i]]; // swap
 //     } else {
