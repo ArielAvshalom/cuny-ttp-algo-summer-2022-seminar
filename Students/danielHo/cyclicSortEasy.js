@@ -7,6 +7,33 @@
 const cyclic_sort = function (nums) {
     // TODO: Write your code here
 
+    // Starting at position 0
+    // Check if it equals to the index + 1
+    // if it is equal to then move to the next index
+    // else check for index of the value belongs there and swap
+    
+    i = 0;
+    while(i < nums.length) {
+  
+      if (nums[i] == i + 1) {
+          i++;
+      }
+      else {
+        let temp = nums[i]; // temp = 3  
+        
+        // swap with the value - 1
+        nums[i] = nums[nums[i] - 1] // nums[0] = 5 
+  
+        nums[nums[i] - 1] = temp; // nums[2] = 3
+      }
+
+    // [3, 1, 5, 4, 2]
+    // [5, 1, 3, 4, 2]
+    // [2, 1, 3, 4, 5]
+    // [1, 2, 3, 4, 5]
+      
+    }
+
     return nums;
   };
   
