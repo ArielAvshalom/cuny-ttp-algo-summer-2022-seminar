@@ -121,7 +121,7 @@ We will start with a brief introduction of each pattern before jumping into the 
 
 - You will complete all algos listed in the syllabus on a weekly basis.
 - We will review your comments/high level overview & code to identify strengths and weaknesses within your understanding of each pattern.
-- You will NOT complete your homework all in one shot & will NOT save. Attempting to master Data-structures and Algorithms requires constant exposure to these questions and solutions. You will create a PR through GitHub each night solving at minimum one problem which you were not able to solve during class time.
+- You will NOT complete your homework all in one shot & will NOT save. Attempting to master Data-structures and Algorithms requires constant exposure to these questions and solutions. You will create a commit through GitHub on your branch each night solving at minimum one problem which you were not able to solve during class time.
 
 </details>
 	
