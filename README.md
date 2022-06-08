@@ -174,7 +174,9 @@ Class Session 3: Fast and Slow Pointers, Intro to Technical Interviewing (a step
 
 Class Session 4: Merge Intervals
 
-Class Session 5: Reverse Linked List in Place - Special Session: Learn a pattern and explain it to your candidate
+Class Session 5: Reverse Linked List in Place & Two Pointers
+
+Class Session 6: Special Teaching Session & Brainstorm a Problem Idea Session
 
 </details>
 
@@ -182,11 +184,9 @@ Class Session 5: Reverse Linked List in Place - Special Session: Learn a pattern
 
 <details><summary>Details</summary>
 
-CLass Session 6: Sliding Window
+CLass Session 7: Sliding Window
 
-Class Session 7: BFS and DFS Trees
-
-Class Session 8: Two Pointers
+Class Session 8: BFS and DFS Trees
 
 Class Session 9: Review of Materials and Prep for Interview Sessions
 
