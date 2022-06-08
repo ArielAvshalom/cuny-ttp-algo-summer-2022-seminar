@@ -24,6 +24,10 @@ const can_attend_all_appointments=function(intervals){
   currentIndex++;
  }
  return true;
+//for(int i=0;i<arrLength;i++){
+ //if(intervals[i].end>intervals[i+1].start) return false;
+//}
+ //return true;
 }
 
 console.log(`Can attend all appointments: ${can_attend_all_appointments([
