@@ -5,7 +5,19 @@
 // Write a function to sort the objects in-place on their creation sequence number in O(n) and without any extra space. For simplicity, let’s assume we are passed an integer array containing only the sequence numbers, though each number is actually an object.
 
 const cyclic_sort = function (nums) {
-  // TODO: Write your code here
+
+  for (let i=0; i<nums.length; i++){
+    if (nums[i]==i+1){
+      continue;
+    }
+    
+    while (nums[i] != i+1){
+      let temp = nums[nums[i]-1];
+      nums[nums[i]-1] = nums[i];
+      nums[i] = temp; 
+    }
+
+  }
   return nums;
 };
 
