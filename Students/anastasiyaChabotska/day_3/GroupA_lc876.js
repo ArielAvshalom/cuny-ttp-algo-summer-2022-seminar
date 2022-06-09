@@ -21,8 +21,10 @@ const find_middle_of_linked_list = function(head) {
     fast = fast.next.next;
     slow = slow.next;
 
-    if(fast==null)
-    break;
+
+//don't really need this check because it is checked in the while condition
+    // if(fast==null)
+    // break;
     
   }
   return slow;
