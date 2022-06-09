@@ -10,8 +10,25 @@ class Node {
 }
 
 const find_cycle_start = function(head){
-  // TODO: Write your code here
-  return head;
+
+  let slow = head;
+  let fast = head;
+
+  while (fast && fast.next){
+    fast = fast.next.next;
+    slow = slow.next;
+
+    if(slow == fast)
+    break;
+  }
+
+  //traced the logic on the paper, looks like the start of the cycle will always be the slow.next
+  //tested with other test cases, slow.next is incorrect
+  //some smarter math is involved
+  //we can count the length of the cycle, but what can it give us? 
+  //going backwards, until pointers meet? but it's singly linked...
+
+  return slow.next;
 };
 
 
