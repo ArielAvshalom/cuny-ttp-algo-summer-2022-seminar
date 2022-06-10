@@ -16,9 +16,21 @@ class Interval {
 const merge = function(intervals_a, intervals_b) {
   let result = [];
 
+
+  /*solutions I thought of:
+
+  maybe make a new list of the 2 intervals together, sort
+  then do regular merging if intersection is found
+
+  trying to loop through 2 intervals at the same time got me stuck most likely
   
-  //maybe make a new list of the 2 intervals together, sort
-  //then do regular merging if intersection
+
+  */
+
+
+
+  
+
 
       //itearate the intervals
       for (let i=0; i< intervals_a.length; i++){
