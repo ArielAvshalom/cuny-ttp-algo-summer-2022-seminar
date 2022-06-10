@@ -16,23 +16,41 @@ class Interval {
 }
 
 
+// //for loop
+// const can_attend_all_appointments = function(intervals){
+
+//   //first sort the intervals by start time
+//   intervals.sort((a, b)=>a.start - b.start);
+
+
+
+//   for (let i=0; i < intervals.length - 1; i++){
+
+//     if(intervals[i+1].start < intervals[i].end) return false;
+
+
+//   }
+
+//   return true;
+
+
+// }
+
+//while loop
 const can_attend_all_appointments = function(intervals){
 
-  //first sort the intervals by start time
-  intervals.sort((a, b)=>a.start - b.start);
+  intervals.sort((a,b)=>a.start - b.start);
 
+  let index = 0;
+  let endIndex = intervals.length - 1;
+  
+  while (index < endIndex){
+    if (intervals[index + 1].start < intervals[index].end) return false;
 
-
-  for (let i=0; i < intervals.length - 1; i++){
-
-    if(intervals[i+1].start < intervals[i].end) return false;
-
-
+    index++;
   }
 
   return true;
-
-
 }
 
 
