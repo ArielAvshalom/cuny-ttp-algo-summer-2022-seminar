@@ -61,7 +61,7 @@ We will start with a brief introduction of each pattern before jumping into the 
   
 ## Assignments
 
-<details><summary>Details</summary>
+<details><summary>Intro</summary>
   
 - For any assignment where we ask you to solve a problem(s) or conduct mock technical interviews in class, please work in a code editor of choice and submit your work to github periodically throughout the day with descriptive comments
 
@@ -69,11 +69,13 @@ We will start with a brief introduction of each pattern before jumping into the 
 
 </details>
 
-## Submitting Work
-
-### Methodology
+### Submitting Work
 
 <details><summary>Details</summary>
+
+#### Methodology
+
+<details><summary>Methods</summary>
 
 1. Each of you should **fork and clone this repository**.
 2. Make sure to pull from the central repository every day as files will updated periodically.
@@ -92,14 +94,16 @@ We will start with a brief introduction of each pattern before jumping into the 
 
 </details>
   
-### Important PSAs:
+#### Important PSAs:
 
-<details><summary>Details</summary>
+<details><summary>PSAs</summary>
 
 - Always work in your own folder, not a classmates.
 - Commit early and commit often
 - Delete your branches after merging (make sure that you properly merged before doing this!)
 - Avoid merge conflicts, think before you commit!
+
+</details>
 
 </details>
 
