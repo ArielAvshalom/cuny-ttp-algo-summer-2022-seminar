@@ -123,8 +123,6 @@ We will start with a brief introduction of each pattern before jumping into the 
 - We will review your comments/high level overview & code to identify strengths and weaknesses within your understanding of each pattern.
 - You will NOT complete your homework all in one shot & will NOT save. Attempting to master Data-structures and Algorithms requires constant exposure to these questions and solutions. You will create a commit through GitHub on your branch each night solving at minimum one problem which you were not able to solve during class time.
 
-</details>
-	
 ### What if the problem is too hard? Can't solve it in time?
 
 <details><summary>Details</summary>
@@ -161,6 +159,10 @@ We will start with a brief introduction of each pattern before jumping into the 
       - While we were young we would be assigned tasks like brushing our teeth, bathing, etc... Our parents would surely not allow us to "attempt" to brush our teeth for 90 minutes in pursuit of perfection at this stage in our lives, instead, they would likely step in and "take over" to ensure that we got it done. The emphasis was never on getting it perfect in one singular session, but, achieving muscle memory and improvement of motor skills through repition.
 
 </details>
+
+</details>
+	
+
 
 ## Week 1
 
