@@ -31,7 +31,7 @@ const merge = function(intervals_a, intervals_b) {
 
   
 
-    //got a hint from lc, need to increment either i or j
+    //checked the logic, was not poroperly adding stuff to the results, failed to porperly check if there is an interval
 
       //iterate the intervals
       for (let i=0; i< intervals_a.length; i++){
@@ -40,6 +40,7 @@ const merge = function(intervals_a, intervals_b) {
         
                 let tempMerge = my_merge(intervals_a[i], intervals_b[j]);
 
+                //if it's an interval
                 if(tempMerge.start <= tempMerge.end)
                 result.push(tempMerge);
 
