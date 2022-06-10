@@ -42,3 +42,49 @@ It's a whole lot of work to convert something like this into a graph...
 #################<<<<<<<<<<<<<<<<<<<
 
 ##########################################
+INTERVIEW PART 1
+
+First problem 0.1: trying to see if the current input is valid. Generally this won't be asked, but checking input validity is pretty important.
+
+What is input validity? 
+    Whenever seeing a non-zero entity, the value below must be non zero.
+
+    You have the wrong array bounds
+
+    You have more than 0,1,2 as inputs
+
+They have to figure out a way to solve that problem...
+
+"000000000012222222222222211111111111111121"
+
+    Convert the input into a 2d array and return True if the input is correct and false otherwise
+
+    You start with the earliest row and start a new row every 7 values.
+
+Incorrect examples:
+"000000000012222222222222211111111111111121" -zero below
+"012222222222222211111111111111121" -below array bound
+"1111110000122?2222222222211111111111111121"
+
+Correct example:
+"000000000000000000000000000000000000000000"
+"101111120101121020100000000000000000000000"
+
+set_of_acceptable_values = (0,1,2)
+
+//TRY TO SOLVE THIS ON YOUR OWN
+
+0.2: put it into a 2D array
+    --use a mod 7 or just append to an array and flip the array
+
+    [
+        [1,2,3,4,5,6,7]
+        [8,9,10,11,12,13,14]
+    ]
+
+    Either revese the actual array spots and make 0 be 5 etc or start from the end of the original input array
+
+The above questions are extremly basic and should covered in the first 10 minutes of coding tops.
+
+#################################################
+INTERVIEW PART 2
