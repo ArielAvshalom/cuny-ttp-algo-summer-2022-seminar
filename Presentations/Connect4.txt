@@ -30,3 +30,15 @@ Give me benefits or negatives?
 
 It's a whole lot of work to convert something like this into a graph...
 
+#################IN THE INTERVIEW TALKING POINT>>>>>
+    A good talking point that your candidate has is that they spoke about the data structure they need to use.
+
+    Our conversation above was about graphs vs 2D arrays. The 2D has benefits. At this point when developing the question, think about all potential data structures you can use and why they might be or might not be useful.
+
+    Building a question requires a much deeper understanding than solving it.
+
+    If the candidate mentions ideal data structures and has a conversation, then they should get a higher rating in communication and the pre-code outline
+
+#################<<<<<<<<<<<<<<<<<<<
+
+##########################################
