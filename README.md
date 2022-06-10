@@ -71,7 +71,7 @@ We will start with a brief introduction of each pattern before jumping into the 
 
 ### Submitting Work
 
-<details><summary>Details</summary>
+
 
 #### Methodology
 
@@ -105,7 +105,7 @@ We will start with a brief introduction of each pattern before jumping into the 
 
 </details>
 
-</details>
+
 
 ## Interviews
 
