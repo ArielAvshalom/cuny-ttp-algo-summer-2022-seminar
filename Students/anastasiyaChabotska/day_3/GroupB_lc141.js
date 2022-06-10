@@ -9,21 +9,21 @@ class Node {
   }
 }
 
-// const has_cycle = function(head) {
-//   //check if slow and fast ever meet
-//   let fast = head;
-//   let slow = head;
-//   while(fast && fast.next){
-//     fast = fast.next.next;
-//     slow = slow.next;
+const has_cycle = function(head) {
+  //check if slow and fast ever meet
+  let fast = head;
+  let slow = head;
+  while(fast && fast.next){
+    fast = fast.next.next;
+    slow = slow.next;
 
-//     if(fast == slow)
-//       return true
+    if(fast == slow)
+      return true
     
     
-//   }
-//   return false
-// }
+  }
+  return false
+}
 
 
 head = new Node(1)
@@ -45,18 +45,18 @@ console.log(`LinkedList has cycle: ${has_cycle(head)}`)
 
 // Solution
 // -----
-function has_cycle(head) {
-  let slow = head,
-    fast = head;
-  while (fast !== null && fast.next !== null) {
-    fast = fast.next.next;
-    slow = slow.next;
-    if (slow === fast) {
-      return true; // found the cycle
-    }
-  }
-  return false;
-}
+// function has_cycle(head) {
+//   let slow = head,
+//     fast = head;
+//   while (fast !== null && fast.next !== null) {
+//     fast = fast.next.next;
+//     slow = slow.next;
+//     if (slow === fast) {
+//       return true; // found the cycle
+//     }
+//   }
+//   return false;
+// }
 // -----
 
 // Time Complexity #
