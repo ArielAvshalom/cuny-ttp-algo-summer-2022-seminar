@@ -125,7 +125,7 @@ We will start with a brief introduction of each pattern before jumping into the 
 
 </details>
 	
-## What if the problem is too hard? Can't solve it in time?
+### What if the problem is too hard? Can't solve it in time?
 
 <details><summary>Details</summary>
 
