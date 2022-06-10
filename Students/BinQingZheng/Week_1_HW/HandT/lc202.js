@@ -23,9 +23,9 @@ const find_happy_number = function(num) {
   let slow = num;
   let fast = num;
   do {
-    //move slow number by one iteration
+    //move slow number by one iterations
     slow = num_square_sum (slow);
-    //move fast number by two iteration
+    //move fast number by two iterations
     fast = num_square_sum(num_square_sum(fast))
   } while (slow !== fast);
 
