@@ -4,7 +4,16 @@
 // Write a function to return the indices of the two numbers (i.e. the pair) such that they add up to the given target.
 
 function pair_with_target_sum(arr, targetSum) {
-  // TODO:write code here
+  let indices = []
+  for(let i = 0; i < arr.length-1; i++){
+    for(let j = 1; j < arr.length; j++){
+      if(arr[i] + arr[j] === targetSum)
+        indices = [i,j]
+    }
+
+  }
+  //console.log(indices)
+  return indices
 }
 
 console.log(pair_with_target_sum([1, 2, 3, 4, 6], 6));
