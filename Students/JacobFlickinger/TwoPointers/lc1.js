@@ -1,10 +1,10 @@
-let twoSum = function(nums, target) {
+let twoSum = function(arr, targetSum) {
     let hashMap = {};
     let i = 0;
     
-    while(i < nums.length) {
-        let num = nums[i];
-        let diff = target - num;
+    while(i < arr.length) {
+        let num = arr[i];
+        let diff = targetSum - num;
         
         if(hashMap[num] == undefined) {
             hashMap[diff] = i;
