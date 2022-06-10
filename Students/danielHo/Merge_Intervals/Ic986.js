@@ -14,11 +14,26 @@ class Interval {
   }
   
   // Intersection of two intervals means to take all those intervals which are common to both of the initial intervals and store them into another list of intervals
-
-  //
+  // Loop through both list of intervals
+  // For each pairs in intervals_a and intervals_b 
+  // Find which interval starts second
+  // Find which interval ends first
+  // If the start is before end then add to the new list
+  // If the interval in intervals_a becomes the end, move onto the next interval
+  // Else move the interval in intervals_b to the next
   const merge = function(intervals_a, intervals_b) {
     let result = [];
     // TODO: Write your code here
+    let i = 0, j = 0;
+    
+    while (i < intervals_a.length && j < intervals_b.length) {
+        let start = Math.max(intervals_a[i].start, intervals_b[j].start);
+        let end = Math.min(intervals_a[i].end, intervals_b[j].end);
+
+        if (start < end) result.push(new Interval(start, end));
+        if (intervals_a[i].end == end) i++;
+        else j++;
+    }
     return result;
   };
   
