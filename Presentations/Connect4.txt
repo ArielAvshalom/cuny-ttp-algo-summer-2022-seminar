@@ -1,0 +1,32 @@
+Connect4
+Win by landing 4 of the same color in a row, column or diagonal
+Place down a piece into the lowest unoccupied place on the map
+
+What sort of data structures would make sense here?
+
+A 2-d array.
+What about a graph? Is there any benefit in creating this as a fluid type of graph?
+Can a 2-d array and a graph be easily converted?
+
+[   [0,0,0,0,0,0,0]
+    [0,0,0,0,0,0,0]
+    [0,0,0,0,0,0,0]
+    [0,0,0,0,0,0,0]
+    [0,0,0,0,0,0,0]
+    [0,0,0,0,0,0,0]
+]
+array[3][3]
+array[4][3]
+
+if down:
+    our_array_position_hori our_array_position_vert =left_right[1], up_down[1]
+
+left_right =    [0,0,1,-1]
+up_down =       [1,-1,0,0]
+
+Let's say you're at an interview, do you propose to the interviewer, let's make a this a graph?
+
+Give me benefits or negatives?
+
+It's a whole lot of work to convert something like this into a graph...
+
