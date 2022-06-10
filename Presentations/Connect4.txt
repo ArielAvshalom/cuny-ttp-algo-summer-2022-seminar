@@ -108,9 +108,29 @@ Considerations:
         How do you check for that?
 
     How do you do this is O(column) time?
+        One of your inputs will be the column.
 
     How do you make sure the right player is playing right now?
+        There has to be either n-1 or even configuration of player pieces
+
+1.2: How do you reconfigure the game to have more than 2 players?
+
+    This question is powerful because it tests to see the elasticity of the programmer. Can they exit out of hardcoding things?
+
+1.3
+
+#####################<<<<<<<<<<<<<<<<
+If people pass 1-2 of the questions above
+
+Their algorithms are about a 3/5
+Their coding is also 3.5/5
+And their data structures are 3/4
+
+######################>>>>>>>>>>>>>>>>>>
 
 
 
 
+2.1: How do you check and see if you won or not won?
+
+2.2: Is the game winnable?
