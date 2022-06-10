@@ -126,9 +126,9 @@ Their algorithms are about a 3/5
 Their coding is also 3.5/5
 And their data structures are 3/4
 
+
+NOTE these numbers aren't hard numbers, they're just suggestions because as a interviewer you can see a lot of things you might like or dislike. 
 ######################>>>>>>>>>>>>>>>>>>
-
-
 
 
 2.1: How do you check and see if you won or not won?
