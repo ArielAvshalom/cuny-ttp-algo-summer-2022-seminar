@@ -14,7 +14,45 @@ class Interval {
       process.stdout.write(`[${this.start}, ${this.end}]`);
     }
   }
-  
+
+    // Sort by start value
+    // Iterate until the second to last with a loop
+    // Compare i and i + 1
+    // If the end of i is greater than the start of i + 1 we return false
+    // Else pass
+    // After the loop if there was no false, then return true
+
+    // While loop approach
+    // const can_attend_all_appointments = function(intervals) {
+    //     const arrLength = intervals.length;
+    //     intervals.sort((a, b) => a.start - b.start); // Sorting the intervals by the starting value
+
+    //     const lastInterval = arrLength - 1; // Second to last interval
+    //     let currentIndex = 0;
+
+    //     while (currentIndex < lastInterval) {
+    //         // Compare the end of i with the start of i + 1
+    //         if (intervals[currentIndex].end > intervals[currentIndex + 1].start) return false
+
+    //         currentIndex++;
+    //     }
+
+    //     return true;
+    // }
+
+    // For loop approach
+    const can_attend_all_appointments = function(intervals) {
+        const arrLength = intervals.length;
+        intervals.sort((a, b) => a.start - b.start); // Sorting the intervals by the starting value
+
+        for (let i = 0; i < intervals.length - 1; i++) {
+            if (intervals[i].end > intervals[i + 1].start) return false;
+        }
+
+        return true;
+    }
+
+
   
   console.log(`Can attend all appointments: ${can_attend_all_appointments([
     new Interval(1, 4),
