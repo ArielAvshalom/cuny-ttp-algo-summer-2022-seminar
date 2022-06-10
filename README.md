@@ -115,15 +115,14 @@ We will start with a brief introduction of each pattern before jumping into the 
 
 <details><summary>Details</summary>
 
-1.  Spend 15-30 minutes trying to solve the problem if you are not able to, write and submit a
-    program containing the following:
+1.  Spend 15-30 minutes trying to solve the problem if you are not able to, write and submit a program containing the following:
 
         As comments:
 
         - a description of the approach(es) you thought of
-        - a description of where you got stuck on these approaches. For
+        - a description of where you got stuck on these approaches. 
 
-    example: - Was there a flaw in the approach you found and you had to think
+    For example: - Was there a flaw in the approach you found and you had to think
     of a new one? What was the flaw? How did you try to get around
     it? - Were you just unable to implement the approach? Which part(s)
     were you unable to implement, and why?
