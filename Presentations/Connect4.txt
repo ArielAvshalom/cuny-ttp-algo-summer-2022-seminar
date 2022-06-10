@@ -86,5 +86,31 @@ set_of_acceptable_values = (0,1,2)
 
 The above questions are extremly basic and should covered in the first 10 minutes of coding tops.
 
+############INPORTANT POINT<<<<<<<<<<<<<<<
+
+If the candidate passes through section 1, their coding skills should be at least a 2, no longer a 1.
+
+This doesn't require algorithms just yet, it's only predicate logic.
+
+#####################>>>>>>>>>>>>>>>>>>
+
 #################################################
 INTERVIEW PART 2
+
+The next questions to ask are the following:
+
+1.1: How do you add a piece to the game?
+--Place a piece and it should go down to the lowest zero element and replace it. But how do you do that?
+
+Considerations: 
+
+    you can't put a piece in a fully finished column.
+        How do you check for that?
+
+    How do you do this is O(column) time?
+
+    How do you make sure the right player is playing right now?
+
+
+
+
