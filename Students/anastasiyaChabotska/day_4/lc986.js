@@ -23,7 +23,7 @@ const merge = function(intervals_a, intervals_b) {
   then do regular merging if intersection is found
 
   trying to loop through 2 intervals at the same time got me stuck most likely
-  
+
 
   */
 
@@ -31,26 +31,28 @@ const merge = function(intervals_a, intervals_b) {
 
   
 
+    //got a hint from lc, need to increment either i or j
 
-      //itearate the intervals
+      //iterate the intervals
       for (let i=0; i< intervals_a.length; i++){
         
-        let tempMerge = intervals_a[i];
         for (let j=0; j <intervals_b.length; j++){
-             
-            if (tempMerge.end >= intervals_b[j].start){
-                tempMerge = my_merge(tempMerge, intervals_b[j]);
+        
+                let tempMerge = my_merge(intervals_a[i], intervals_b[j]);
+
+                if(tempMerge.start <= tempMerge.end)
                 result.push(tempMerge);
-            }
+
+              
             
-            else continue;
+            
             
         }
      
        
         
     }
-    
+
     return result;
   
 };
