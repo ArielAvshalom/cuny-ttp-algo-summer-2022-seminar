@@ -121,7 +121,7 @@ We will start with a brief introduction of each pattern before jumping into the 
 
 - You will complete all algos listed in the syllabus on a weekly basis.
 - We will review your comments/high level overview & code to identify strengths and weaknesses within your understanding of each pattern.
-- You will NOT complete your homework all in one shot & will NOT save. Attempting to master Data-structures and Algorithms requires constant exposure to these questions and solutions. You will create a PR through GitHub each night solving at minimum one problem which you were not able to solve during class time.
+- You will NOT complete your homework all in one shot & will NOT save. Attempting to master Data-structures and Algorithms requires constant exposure to these questions and solutions. You will create a commit through GitHub on your branch each night solving at minimum one problem which you were not able to solve during class time.
 
 </details>
 	
@@ -174,7 +174,9 @@ Class Session 3: Fast and Slow Pointers, Intro to Technical Interviewing (a step
 
 Class Session 4: Merge Intervals
 
-Class Session 5: Reverse Linked List in Place - Special Session: Learn a pattern and explain it to your candidate
+Class Session 5: Reverse Linked List in Place & Two Pointers
+
+Class Session 6: Special Teaching Session & Brainstorm a Problem Idea Session
 
 </details>
 
@@ -182,11 +184,9 @@ Class Session 5: Reverse Linked List in Place - Special Session: Learn a pattern
 
 <details><summary>Details</summary>
 
-CLass Session 6: Sliding Window
+CLass Session 7: Sliding Window
 
-Class Session 7: BFS and DFS Trees
-
-Class Session 8: Two Pointers
+Class Session 8: BFS and DFS Trees
 
 Class Session 9: Review of Materials and Prep for Interview Sessions
 
@@ -208,4 +208,4 @@ Read up on and relearn materials from Data Structures and Algorithms Courses
 | 2 - June 2 |     Big O and Cyclic Sort     | [:tv:](https://us02web.zoom.us/rec/share/v9U9e-wnpibYYjQf_VNSR5g4q-82m54Yt_om0kLT7fTClcLMeAR57GNGgGENniZ7.NfIKLd-ceARQQJqx) |                          [Java Explanation](https://www.javatpoint.com/cycle-sort), [Pattern Explanation](https://emre.me/coding-patterns/cyclic-sort/), [Leetcode Explaination](https://leetcode.com/problems/first-missing-positive/discuss/858526/cyclic-sort-explained)                           |       [Cyclic Sort Slides and OneNote](https://docs.google.com/presentation/d/1sxnE7gPb9FhtDL3dUCu6O09t_fh_oOzm/edit?usp=sharing&ouid=112690378091977071463&rtpof=true&sd=true)       |           | [Cyclic Sort Coding Questions](https://github.com/ArielAvshalom/cuny-ttp-algo-summer-2022-seminar/tree/main/Assignments/cyclicSort), Practice Interview Question |
 | 3 - June 7 |    Fast and Slow Pointers     | [:tv:](https://us02web.zoom.us/rec/share/m_1FM3kW9Lz0QgRN9k8so8ghmEvZ4QsheQzL5cRKy3lpLMcIfArJHyO7JtIowMBs.vi_4_KCBlwVF8GOF) | [Great Explaination of Tortoise and Hare Pattern](https://codeburst.io/fast-and-slow-pointer-floyds-cycle-detection-algorithm-9c7a8693f491), [Exploring the Runtime Complexity of Floyd's Cycle Detection](https://stackoverflow.com/questions/47193225/runtime-complexity-of-floyds-cycle-detection) |           [Fast \_ Slow Pointers](https://docs.google.com/presentation/d/1hxNEUPi-IQfdOH66zRDBqjrHbu0Tt8_D/edit?usp=sharing&ouid=112690378091977071463&rtpof=true&sd=true)            |           |     [HandT lc142, lc202](https://github.com/ArielAvshalom/cuny-ttp-algo-summer-2022-seminar/tree/main/Assignments/HandT), Practice Interview Question (PIQ)      |
 | 4 - June 8 |        Merge Intervals        | [:tv:](https://us02web.zoom.us/rec/share/14UJBVUQ8EJwHf1FMx87Sn9NC6HtiV1M5MoA9cHwvTZZZtFvIBheK5yY4vnFcAdI.shlVzCqKeOky__jF) |                          [Medium Article on Merge Intervals](https://medium.com/@timpark0807/leetcode-is-easy-the-interval-pattern-d68a7c1c841), [Emre Article](https://emre.me/coding-patterns/merge-intervals/), [g4g](https://www.geeksforgeeks.org/merging-intervals/)]                           |              [Merge Intervals](https://docs.google.com/presentation/d/1dTA3jAX6b_MaxuKmW42OCJ_r2mptuXbx/edit?usp=sharing&ouid=112690378091977071463&rtpof=true&sd=true)               |           |         [Merge Intervals lc252 and lc986](https://github.com/ArielAvshalom/cuny-ttp-algo-summer-2022-seminar/tree/main/Assignments/Merge_Intervals), PIQ         |
-| 5 - June 9 | In Place Linked List Reversal |                                                     [:tv:](example.com)                                                     |                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                       |           |                                                                                                                                                                  |
+| 5 - June 9 | In Place Linked List Reversal & Two Pointers Paradigm |[:tv:](example.com)|[g4g reverse linked list (RLL)](https://www.geeksforgeeks.org/reverse-a-linked-list/), [emre RLL](https://emre.me/coding-patterns/in-place-reversal-of-a-linked-list/), [Medium Article RLL](https://medium.com/outco/reversing-a-linked-list-easy-as-1-2-3-560fbffe2088), [Medium two pointers (TP)](https://medium.com/@timpark0807/leetcode-is-easy-two-pointers-90b9b0f2eb43), [g4g TP](https://www.geeksforgeeks.org/two-pointers-technique/), [AlgoDaily + video TP](https://algodaily.com/lessons/using-the-two-pointer-technique)|[Linked List Slides](https://docs.google.com/presentation/d/1ocTTgGxWJrCGv15fWq22hjo18pH_-sI0/edit?usp=sharing&ouid=112690378091977071463&rtpof=true&sd=true), [Two Pointers Slides](https://docs.google.com/presentation/d/185GiGXYJEcnSL0LiuPWqpfP54OkO1m5P/edit?usp=sharing&ouid=112690378091977071463&rtpof=true&sd=true)|                                                                                                                                                                  |
