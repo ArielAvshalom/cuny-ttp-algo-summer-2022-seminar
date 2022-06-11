@@ -3,7 +3,40 @@
 
 function search_triplets(arr) {
   triplets = [];
-  // TODO: Write your code here
+  arr.sort((a, b) => a - b);
+  let start1 = 0;
+  let start2 = start1 + 1;
+  let end = arr.length - 1;
+
+  console.log(arr);
+
+  while (start1 !== end - 2)
+  {
+    if (start2 === end)
+    {
+      start1++;
+      start2 = start1 + 1;
+      end = arr.length - 1;
+    }
+    
+    if (arr[start1] + arr[start2] + arr[end] > 0) {
+      end--;
+    } else if (arr[start1] + arr[start2] + arr[end] < 0) 
+    {
+      start2++;
+    } else 
+    {
+      console.log(arr[start1], arr[start2], arr[end]);
+      triplets.push([arr[start1], arr[start2], arr[end]]);
+      start2++;
+    }
+  }
+
+  for (let i = 0; i < triplets.length; i++)
+  {
+    console.log(triplets[i])
+  }
+
   return triplets;
 }
 
