@@ -3,7 +3,7 @@
 const triplet_sum_close_to_target = function (arr, target_sum) {
   maximum = -99999999999999;
   arr.sort((a,b) => a-b);
-  // TODO: Write your code here Two pointers takes up too much memory
+  // TODO: Write your code here
   for(let i=0;i<arr.length-2;i++){
    j=i+1;
    k=arr.length-1;
