@@ -26,13 +26,15 @@ const merge = function (intervals_a, intervals_b) {
         (end > intervals_b[i].start && end < intervals_b[i].end)
       ) {
         //the elements of the interval_a is in between the element of interval_b, add it to the results
-        result.push(elem);
-        result.push(intervals_b[i]);
+        let merged = new Interval(start, intervals_b[i].end);
+        result.push(merged);
+        //result.push(intervals_b[i]);
+        merged.print_interval()
       }
     }
   }
 
-  console.log(result);
+  //console.log(result);
 
   return result;
 };
@@ -47,12 +49,30 @@ for (i = 0; i < result.length; i++) {
 }
 console.log();
 
-process.stdout.write("Intervals Intersection: ");
-result = merge(
-  [new Interval(1, 3), new Interval(5, 7), new Interval(9, 12)],
-  [new Interval(5, 10)]
-);
-for (i = 0; i < result.length; i++) {
-  result[i].print_interval();
-}
-console.log();
+
+/**
+ * [1 2 3]
+ *         } => [2,3]
+ *   [2 3]
+ * 
+ * 1 2 3 4 [5 6]
+ *                } => [5,7]
+ * 1 2 3 4 [5 6 7]
+ * 
+ *         [5 6 7]
+ *                    }=> [5,9]
+ * 1 2 3 4 5 6 [7 8 9]
+ * 
+ * /// [[2,3] , [5,9]]
+ * 
+ */
+
+// process.stdout.write("Intervals Intersection: ");
+// result = merge(
+//   [new Interval(1, 3), new Interval(5, 7), new Interval(9, 12)],
+//   [new Interval(5, 10)]
+// );
+// for (i = 0; i < result.length; i++) {
+//   result[i].print_interval();
+// }
+// console.log();

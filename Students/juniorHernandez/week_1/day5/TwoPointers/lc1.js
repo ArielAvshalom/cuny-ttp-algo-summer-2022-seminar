@@ -6,7 +6,7 @@
 function pair_with_target_sum(arr, targetSum) {
   let indices = []
   for(let i = 0; i < arr.length-1; i++){
-    for(let j = 1; j < arr.length; j++){
+    for(let j = i + 1; j < arr.length; j++){
       if(arr[i] + arr[j] === targetSum)
         indices = [i,j]
     }
