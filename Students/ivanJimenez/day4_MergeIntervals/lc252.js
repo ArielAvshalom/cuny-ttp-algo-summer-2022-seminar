@@ -15,6 +15,53 @@ class Interval {
   }
 }
 
+/*
+const can_attend_all_appointments = function(appointments){
+  if (appointments.length < 2) {
+    return true;
+  }
+  // sort the intervals on the start time
+  appointments.sort((a, b) => a.start - b.start);
+
+  let start = appointments[0].start, end = appointments[0].end;
+  for (i = 1; i < appointments.length; i++) {
+    const interval = appointments[i];
+    if (interval.start <= end) { // overlapping intervals, adjust the 'end'
+      return false;
+    }
+    else { // non-overlapping interval, add the previous interval and reset
+      start = interval.start;
+      end = interval.end;
+    }
+  }
+
+  return true;
+}
+*/
+
+const can_attend_all_appointments = function(appointments){
+  if (appointments.length < 2) {
+    return true;
+  }
+  // sort the intervals on the start time
+  appointments.sort((a, b) => a.start - b.start);
+
+  let i = 1;
+  let start = appointments[0].start, end = appointments[0].end;
+  while(i < appointments.length){
+    const interval = appointments[i];
+    if (interval.start <= end) { // overlapping intervals, adjust the 'end'
+      return false;
+    }
+    else { // non-overlapping interval, add the previous interval and reset
+      start = interval.start;
+      end = interval.end;
+    }
+    i++;
+  }
+  return true;
+}
+
 
 console.log(`Can attend all appointments: ${can_attend_all_appointments([
   new Interval(1, 4),
