@@ -9,7 +9,7 @@ class Interval {
       this.end = end;
     }
   
-    print_interval () {
+    print_interval() {
       process.stdout.write(`[${this.start}, ${this.end}]`);
     }
 }
@@ -52,6 +52,7 @@ const merge = function(intervals_a, intervals_b) {
     result[i].print_interval();
   }
   console.log();
+  
 
   
 
