@@ -35,28 +35,3 @@ console.log(`LinkedList has cycle: ${has_cycle(head)}`)
 
 head.next.next.next.next.next.next = head.next.next.next
 console.log(`LinkedList has cycle: ${has_cycle(head)}`)
-
-
-
-
-// Solution
-// -----
-// function has_cycle(head) {
-//   let slow = head,
-//     fast = head;
-//   while (fast !== null && fast.next !== null) {
-//     fast = fast.next.next;
-//     slow = slow.next;
-//     if (slow === fast) {
-//       return true; // found the cycle
-//     }
-//   }
-//   return false;
-// }
-// -----
-
-// Time Complexity #
-// As we have concluded above, once the slow pointer enters the cycle, the fast pointer will meet the slow pointer in the same loop. Therefore, the time complexity of our algorithm will be O(N) where ‘N’ is the total number of nodes in the LinkedList.
-
-// Space Complexity #
-// The algorithm runs in constant space O(1).
