@@ -10,9 +10,9 @@ function search_triplets(arr) {
 
   console.log(arr);
 
-  while (start1 !== end - 2)
+  while (start1 < end - 2)
   {
-    if (start2 === end)
+    if (start2 >= end)
     {
       start1++;
       start2 = start1 + 1;
@@ -26,9 +26,13 @@ function search_triplets(arr) {
       start2++;
     } else 
     {
-      console.log(arr[start1], arr[start2], arr[end]);
-      triplets.push([arr[start1], arr[start2], arr[end]]);
-      start2++;
+      if ((arr[start1] !== arr[start2]) && (arr[start1] !== arr[end]) && (arr[start2] !== arr[end]))
+        triplets.push([arr[start1], arr[start2], arr[end]]);
+  
+      if (start2 + 1 < arr.length && arr[start2] === arr[start2 + 1])
+        start2+=2;
+      else if (start2 + 1 < arr.length)
+        start2++;
     }
   }
 
