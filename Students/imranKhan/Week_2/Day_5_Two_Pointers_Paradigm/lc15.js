@@ -17,22 +17,23 @@ function search_triplets(arr) {
       start1++;
       start2 = start1 + 1;
       end = arr.length - 1;
-    }
-    
-    if (arr[start1] + arr[start2] + arr[end] > 0) {
-      end--;
-    } else if (arr[start1] + arr[start2] + arr[end] < 0) 
+    } else
     {
-      start2++;
-    } else 
-    {
-      if ((arr[start1] !== arr[start2]) && (arr[start1] !== arr[end]) && (arr[start2] !== arr[end]))
-        triplets.push([arr[start1], arr[start2], arr[end]]);
-  
-      if (start2 + 1 < arr.length && arr[start2] === arr[start2 + 1])
-        start2+=2;
-      else if (start2 + 1 < arr.length)
+      if (arr[start1] + arr[start2] + arr[end] > 0) {
+        end--;
+      } else if (arr[start1] + arr[start2] + arr[end] < 0) 
+      {
         start2++;
+      } else 
+      {
+        if ((arr[start1] !== arr[start2]) && (arr[start1] !== arr[end]) && (arr[start2] !== arr[end]))
+          triplets.push([arr[start1], arr[start2], arr[end]]);
+    
+        if (start2 + 1 < arr.length && arr[start2] === arr[start2 + 1])
+          start2+=2;
+        else if (start2 + 1 < arr.length)
+          start2++;
+      }
     }
   }
 
