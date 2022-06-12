@@ -5,12 +5,24 @@
 
 function pair_with_target_sum(arr, targetSum) {
   let indices = []
-  for(let i = 0; i < arr.length-1; i++){
-    for(let j = i + 1; j < arr.length; j++){
-      if(arr[i] + arr[j] === targetSum)
-        indices = [i,j]
-    }
+  let head = 0, tail = arr.length-1;
 
+  // for(let i = 0; i < arr.length-1; i++){
+  //   for(let j = i + 1; j < arr.length; j++){
+  //     if(arr[i] + arr[j] === targetSum)
+  //       indices = [i,j]
+  //   }
+
+  // }
+  while(head < tail){
+    if (arr[head] + arr[tail] === targetSum) {
+      indices.push(head, tail)
+      break;
+    } else if (arr[head] + arr[tail] > targetSum) {
+      --tail;
+    } else {
+      ++head;
+    }
   }
   //console.log(indices)
   return indices
