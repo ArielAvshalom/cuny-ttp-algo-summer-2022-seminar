@@ -15,6 +15,7 @@ function search_triplets(arr) {
       if(arr[i] + sum == 0){
        triplets.push([arr[i], arr[l], arr[r]])
        l++
+       while (arr[l]==arr[l-1] && l <r) l++;
       }
       if(arr[i] + sum < 0) l++
       if(arr[i] + sum > 0) r--
@@ -30,6 +31,7 @@ console.log(search_triplets([-3, 0, 1, 2, -1, 1, -2]));
 console.log(search_triplets([-5, 2, -1, -2, 3]));
 
 
+//pseudocode
 
 //[-3, -2, -1, 0, 1, 1, 2]
 
