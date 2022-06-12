@@ -19,9 +19,19 @@ class Node {
   }
 };
 
-
 const reverse = function(head) {
-  // TODO: Write your code here
+  let previous = null;
+  let current = head;
+  let next = null;
+
+  while(current !== null){
+    next = current.next;
+    current.next = previous;
+    previous = current;
+    current = next;
+  }
+  
+  head = previous;
   return head;
 };
 
