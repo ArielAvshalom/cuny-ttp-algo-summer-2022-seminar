@@ -25,7 +25,7 @@ class Interval {
 
     let start = intervals[0].start,
       end =intervals[0].end;
-    for ( i = 1; i < intervals.length; i++) {
+    for (let i = 1; i < intervals.length; i++) {
       const interval = intervals[i];
       if (interval.start <= end) { // if there is two overlapping appointments, return false for can't attend all appointments
         return false;
@@ -105,3 +105,4 @@ class Interval {
     new Interval(2, 3),
     new Interval(3, 6),
   ])}`); // Expected: false, Output: false
+  
