@@ -26,30 +26,28 @@ function search_triplets(arr) {
           if (set.size === 0) {
             //if the set is empty add the first element
             set.add([arr[pointer1], arr[pointer2], arr[pointer3]]);
-            const iterator1 = set.values();
-            console.log(`set: ${iterator1.next().value}`);
+            // console.log(`set: ${iterator1.next().value}`);
           } else {
             let duplicate = false;
-            const iterator1 = set.values();
             for (const array of set) {
               //for all array inside the set
-              console.log(`checking for: ${check}`);
+              // console.log(`checking for: ${check}`);
 
               if (array.toString() === check) {
                 //if the array is the same as the array we're checking
-                console.log(`found : ${check}`);
+                // console.log(`found : ${check}`);
                 duplicate = true; //set the check to true and leave
-                console.log(`duplicate is : ${check}`);
+                // console.log(`duplicate is : ${check}`);
                 break;
               }
             }
-            console.log(`duplicate is ${duplicate}`);
+            // console.log(`duplicate is ${duplicate}`);
             if (!duplicate) {
               //if the check is not true
-              console.log(`${check} was not found and being added to the set`);
+              // console.log(`${check} was not found and being added to the set`);
               set.add([arr[pointer1], arr[pointer2], arr[pointer3]]); //add the array to the set
             }
-            console.log(`\n-----------------------------------------------\n`)
+            // console.log(`\n-----------------------------------------------\n`)
           }
           ++pointer3;
         } else {
