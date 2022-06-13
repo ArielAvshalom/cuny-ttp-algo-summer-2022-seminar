@@ -19,6 +19,7 @@ function remove_element(arr, key) {
     return 0;}
 
   });
+  
   return size
 }
 
