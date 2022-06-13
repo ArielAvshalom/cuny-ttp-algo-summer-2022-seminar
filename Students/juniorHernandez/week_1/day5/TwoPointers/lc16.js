@@ -6,7 +6,7 @@
 const triplet_sum_close_to_target = function (arr, target_sum) {
   arr.sort()
   let min = -1;
-  console.log(arr)
+  // console.log(arr)
   for(let i = 0; i < arr.length; ++i){
     let head = i + 1, tail = arr.length - 1;
     while(head < tail){
@@ -17,15 +17,15 @@ const triplet_sum_close_to_target = function (arr, target_sum) {
       }
       if(min === -1){
         min = sum;
-        console.log(
-          `min is: ${min} from [${arr[i]}, ${arr[head]}, ${arr[tail]}]`
-        );
+        // console.log(
+        //   `min is: ${min} from [${arr[i]}, ${arr[head]}, ${arr[tail]}]`
+        // );
         --tail;
       }else if(sum > min && sum < target_sum){//if the sum is inbetween the min and the target, then its closer and its our new min
         min = sum;
-        console.log(
-          `new min is: ${min} from [${arr[i]}, ${arr[head]}, ${arr[tail]}]`
-        );
+        // console.log(
+        //   `new min is: ${min} from [${arr[i]}, ${arr[head]}, ${arr[tail]}]`
+        // );
         --tail;
       }else{
         --tail;
