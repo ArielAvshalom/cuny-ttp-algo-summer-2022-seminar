@@ -2,14 +2,18 @@
 
 // We are given an unsorted array containing ‘n’ numbers taken from the range 1 to ‘n’. The array has some numbers appearing twice, find all these duplicate numbers without using any extra space.
 
-const find_all_duplicates = function(nums) {
+const find_all_duplicates = function (nums) {
   duplicateNumbers = [];
-  // TODO: Write your code here
+  for (let i = 0; i < nums.length; i++) {
+    let j = Math.abs(nums[i]) - 1; // value may have been made negative by us
+    if (nums[j] < 0) duplicateNumbers.push(j + 1); // we have seen this number (we made it negative)
+    nums[j] = -nums[j]; // make number negative to keep track of duplicates
+  }
   return duplicateNumbers;
 };
 
 console.log(find_all_duplicates([3, 4, 4, 5, 5]));
-console.log(find_all_duplicates([5, 4, 7, 2, 3, 5, 3]));
+console.log(find_all_duplicates([2, 4, 1, 4, 4]));
 
 /*
 For the interviewer
@@ -24,9 +28,6 @@ Use that to understand the solution below. The code below will run on an interpr
 
 Good luck!!!
  */
-
-
-
 
 // Solution
 // -----

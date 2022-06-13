@@ -4,44 +4,44 @@
 
 class Node {
   constructor(value, next = null) {
-    this.value = value
-    this.next = next
+    this.value = value;
+    this.next = next;
   }
 }
 
 const has_cycle = function (head) {
-  let fast = head
-  let slow = head
+  let fast = head;
+  let slow = head;
 
   while (fast != null && fast.next != null) {
-    slow = slow.next
-    fast = fast.next.next
+    slow = slow.next;
+    fast = fast.next.next;
 
     // since fast is always move two steps, if there is a cycle
     // fast will at some iteration, point to the same node as
     // slow.
     if (fast === slow) {
-      return true
+      return true;
     }
   }
 
   // if there is not a cycle, the loop will terminate
-  return false
-}
+  return false;
+};
 
-head = new Node(1)
-head.next = new Node(2)
-head.next.next = new Node(3)
-head.next.next.next = new Node(4)
-head.next.next.next.next = new Node(5)
-head.next.next.next.next.next = new Node(6)
-console.log(`LinkedList has cycle: ${has_cycle(head)}`)
+head = new Node(1);
+head.next = new Node(2);
+head.next.next = new Node(3);
+head.next.next.next = new Node(4);
+head.next.next.next.next = new Node(5);
+head.next.next.next.next.next = new Node(6);
+console.log(`LinkedList has cycle: ${has_cycle(head)}`);
 
-head.next.next.next.next.next.next = head.next.next
-console.log(`LinkedList has cycle: ${has_cycle(head)}`)
+head.next.next.next.next.next.next = head.next.next;
+console.log(`LinkedList has cycle: ${has_cycle(head)}`);
 
-head.next.next.next.next.next.next = head.next.next.next
-console.log(`LinkedList has cycle: ${has_cycle(head)}`)
+head.next.next.next.next.next.next = head.next.next.next;
+console.log(`LinkedList has cycle: ${has_cycle(head)}`);
 
 // Solution
 // -----
