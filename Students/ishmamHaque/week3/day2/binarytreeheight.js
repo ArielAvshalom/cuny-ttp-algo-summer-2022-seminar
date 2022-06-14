@@ -14,8 +14,8 @@ class TreeNode {
 function find_maximum_depth(root) {
   //Write Code Here
   if(root==null) return 0;
-  else return 1+find_maximum_depth(root.left)+find_maximum_depth(root.right);
-  return -1
+  else return 1+Math.max(find_maximum_depth(root.left)+find_maximum_depth(root.right));
+  return -1;
 }
 
 
