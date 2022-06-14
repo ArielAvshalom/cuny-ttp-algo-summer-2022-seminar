@@ -8,7 +8,9 @@ const longest_substring_with_k_distinct = function (str, k) {
     let windowStart = 0,
       maxLength = 0;
     //ex of charFrequency: {a: 1, b:2}
-    charFrequency = {};
+    const charFrequency = {};
+    console.log(" charFrequency object created");
+
 
     // expand the window range [windowStart, windowEnd]
     for (let windowEnd = 0; windowEnd < str.length; windowEnd++) {
