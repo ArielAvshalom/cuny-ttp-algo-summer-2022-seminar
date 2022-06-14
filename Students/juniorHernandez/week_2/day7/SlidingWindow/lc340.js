@@ -6,6 +6,11 @@
 
 function longest_substring_with_k_distinct(str, k) {
   // TODO: Write code here
+  let arr = [], strArr = [...str]
+  let set = new Set()
+  for(let i = 0; i < strArr.length; i++){
+    set.add(i)
+  }
 }
 
 console.log(
