@@ -1,32 +1,26 @@
 // Problem Statement #
 
-// Given an array of positive numbers and a positive number ‘S,’ find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’. Return 0 if no such subarray exists.
+// Given an array of positive numbers and a positive number ‘S,’ find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’. 
+// Return 0 if no such subarray exists.
 
 function smallest_subarray_with_given_sum(s, arr) {
-    // TODO: Write code here
+
+    let window_start  = 0;
+      windowSum = 0,
+      minLength = Infinity;
   
-  
-    let startWindow  = 0;
-    let windowSum = 0;
-    let minLength = Infinity;
-  
-  
-    for( let endWindow = 0; endWindow < arr.length; endWindow++)
+    for( let window_end = 0; window_end < arr.length; window_end++ ) 
     {
-  
-      windowSum += arr[endWindow];
-  
-       while(windowSum >= s)
+      windowSum += arr[window_end];
+       while(windowSum >= s) 
        {
-        minLength = Math.min(minLength, endWindow - startWindow + 1)
-        windowSum -= arr[startWindow]
-        startWindow++;
-  
+        minLength = Math.min(minLength, window_end - window_start + 1);
+        windowSum -= arr[window_start];
+        window_start++;
        }
     }
-  
-    return minLength;
-  
+    if (minLength === Infinity) return 0;
+    else return minLength;
   }
   
   console.log(
@@ -48,4 +42,6 @@ function smallest_subarray_with_given_sum(s, arr) {
     )}`
   );
   
+// Time complexity = O(n);
+// Space complexity = O(1)
   

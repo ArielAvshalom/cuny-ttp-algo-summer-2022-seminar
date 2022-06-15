@@ -36,3 +36,6 @@ console.log(
       [2, 3, 4, 1, 5]
     )}`
 );
+
+// Time complexity = O(n);
+// Space complexity = O(1)
