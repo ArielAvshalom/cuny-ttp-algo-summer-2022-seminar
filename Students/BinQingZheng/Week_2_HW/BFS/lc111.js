@@ -17,6 +17,13 @@ const find_minimum_depth = function(root) {
   return -1;
 };
 
+//recursive dfs
+const minimum_depth_recursive = function (root) {
+    if(!root) return 0;
+    else if (!root.left && !root.right) return 1;
+    else return 1 + Math.min(minimum_depth_recursive(root.left), minimum_depth_recursive(root.right));
+}; 
+
 
 
 var root = new TreeNode(12)
