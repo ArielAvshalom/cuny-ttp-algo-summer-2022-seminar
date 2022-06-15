@@ -27,7 +27,7 @@ const traverse = function(root) {
   //       currentNode=queue.shift();
   //       if(currentNode.left!==null) queue.push(currentNode.left);
   //      if(currentNode.right!==null) queue.push(currentNode.right);
-  //       currentLevel.push(currentNode.val);
+  //       currentLevel.push(currentNode.value);
   //    }
   //    levels.push(currentLevel);
   //}
