@@ -1,6 +1,7 @@
 // Problem Statement #
 
-// Given a binary tree, populate an array to represent its level-by-level traversal in reverse order, i.e., the lowest level comes first. You should populate the values of all nodes in each level from left to right in separate sub-arrays.
+// Given a binary tree, populate an array to represent its level-by-level traversal in reverse order, i.e., the lowest level comes first. 
+// You should populate the values of all nodes in each level from left to right in separate sub-arrays.
 
 class TreeNode {
 
@@ -21,7 +22,7 @@ const traverse = function(root) {
   {
     const queueLength = queue.length
     const currentLevel = []
-    for (let i = 0; i < queue.length; i++)
+    for (let i = 0; i < queueLength; i++)
     {
       const current = queue.shift();
       if(current.left) {
@@ -30,14 +31,9 @@ const traverse = function(root) {
       if(current.right) {
         queue.push(current.right);
       }
-      //console.log("insode for loop");
-      //console.log("current node: " + current.value);
-      console.log (" node added to current level: " + currentLevel.push(current.value));
-      //console.log("end of for loop");
+      currentLevel.push(current.value);
     }
-    //console.log("out of for loop");
-    console.log ("level subarray " + result.push(currentLevel))
-    //console.log("added level subarray to result");
+    result.unshift(currentLevel)
   }
   //return result.reverse();
   return result
@@ -50,9 +46,6 @@ root.left.left = new TreeNode(9)
 root.right.left = new TreeNode(10)
 root.right.right = new TreeNode(5)
 console.log(`Reverse level order traversal: ${traverse(root)}`)
-
-
-
 
 //Time complexity = O(n)
 //Space complexity = O(n)
