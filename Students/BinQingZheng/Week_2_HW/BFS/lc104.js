@@ -34,14 +34,16 @@ function find_maximum_depth(root) {
         }
         level += 1
     }
+    // maximum depth of a binary tree
     return level
 }
 
-//Recursive DFS 
+// Recursive DFS 
+// Time Complexity = O(n)
 function maxium_depth_recursive (root) {
     // If root is null return 0
     if (!root) return 0;
-    //else if ((!root.left) && (!root.right)) return 1;
+    else if ((!root.left) && (!root.right)) return 1;
     else return 1 + Math.max(maxium_depth_recursive(root.left), maxium_depth_recursive(root.right));        
 };
     

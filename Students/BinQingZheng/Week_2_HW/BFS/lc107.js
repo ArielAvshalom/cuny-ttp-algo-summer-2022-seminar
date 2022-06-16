@@ -12,10 +12,36 @@ class TreeNode {
 };
 
 const traverse = function(root) {
-  result = [];
-  // TODO: Write your code here
-  return result;
-}
+  if (!root) return []
+
+  const queue = [root]
+  const result =[]
+
+  while (queue.length !== 0) 
+  {
+    const queueLength = queue.length
+    const currentLevel = []
+    for (let i = 0; i < queue.length; i++)
+    {
+      const current = queue.shift();
+      if(current.left) {
+        queue.push(current.left);
+      }
+      if(current.right) {
+        queue.push(current.right);
+      }
+      //console.log("insode for loop");
+      //console.log("current node: " + current.value);
+      console.log (" node added to current level: " + currentLevel.push(current.value));
+      //console.log("end of for loop");
+    }
+    //console.log("out of for loop");
+    console.log ("level subarray " + result.push(currentLevel))
+    //console.log("added level subarray to result");
+  }
+  //return result.reverse();
+  return result
+};
 
 var root = new TreeNode(12)
 root.left = new TreeNode(7)
@@ -24,3 +50,9 @@ root.left.left = new TreeNode(9)
 root.right.left = new TreeNode(10)
 root.right.right = new TreeNode(5)
 console.log(`Reverse level order traversal: ${traverse(root)}`)
+
+
+
+
+//Time complexity = O(n)
+//Space complexity = O(n)
