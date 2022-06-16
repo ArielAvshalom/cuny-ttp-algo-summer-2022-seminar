@@ -24,7 +24,6 @@ function smallest_subarray_with_given_sum(s, arr) {
       windowStart++;
       windowEnd = windowStart;
 
-      console.log("after while", windowEnd)
 
 
     }
