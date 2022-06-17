@@ -12,6 +12,8 @@ class TreeNode {
 };
 
 const traverse = function(root) {
+
+  //result is stack
   result = [];
   let queue = [root];
 
@@ -19,15 +21,31 @@ const traverse = function(root) {
 
 
 
-    let node = queue.shift();
-    console.log(node);
-    if(node.right) queue.push(node.right)
+
+    let tempRes = [];
+    size = queue.length;
+
+    for(let i = size; i>0; i--){
+      let node = queue.shift();
+
+
+    //do right first, then left to keep the order from left to right
+    //irrlevant now since we work level by level
     if(node.left) queue.push(node.left)
+    if(node.right) queue.push(node.right)
+    tempRes.push(node.value);
+
+    }
 
   
    
-    result.unshift(node.value);
+    result.unshift(tempRes);
+
   }
+
+  console.log(result[0])
+  console.log(result[1]);
+  console.log(result[2]);
   return result;
 }
 
