@@ -27,7 +27,7 @@ const traverse = function(root) {
   //       currentNode=queue.shift();
   //       if(currentNode.left!==null) queue.push(currentNode.left);
   //      if(currentNode.right!==null) queue.push(currentNode.right);
-  //       currentLevel.push(currentNode.val);
+  //       currentLevel.push(currentNode.value);
   //    }
   //    levels.push(currentLevel);
   //}
@@ -50,7 +50,7 @@ const traverse = function(root) {
               queue.push(current.right);
           }
 //          // After we add left and right for current, we add to currLevel
-          currLevel.push(current.val);
+          currLevel.push(current.value);
       }
 //      // Level has been finished. Push into output array
       levels.push(currLevel);
