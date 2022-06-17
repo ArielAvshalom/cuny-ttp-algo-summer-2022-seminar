@@ -12,31 +12,40 @@ class TreeNode {
 
 
 function find_maximum_depth(root) {
-  let maxDepth = 0;
   let queue = [];
-  let prev = [];
   queue.push(root);
+
+  let level = 0;
 
 
   
   while(queue.length > 0){
+
+
+    size = queue.length;
+    //doesn't matter end to start or start to end since we use fifo queue
+    for (i=size; i > 0; i--)
+    {
+    
     let node = queue.shift();
 
-    console.log(node.val);
 
-    if(node.left!=null){
-    queue.push(node.left);
-    prev[node.left] = node;
-    }
-    if(node.right!=null){
-    queue.push(node.right);
-    prev[node.right] = node;
-    }
+    if(node.left) queue.push(node.left);
+  
+    if(node.right) queue.push(node.right);
+   
   }
 
-  console.log((prev));
 
-  return -1
+
+  //after we finish working on a level, record it
+  level++;
+
+  }
+
+ 
+
+  return level;
 }
 
 //start node
