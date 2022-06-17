@@ -24,10 +24,12 @@ const triplet_with_smaller_sum = function(arr, target) {
 
             // Increment count if sum is less than target
             if (sum < target) count++;
-
+        
             else if (sum > target) k--;
+            
             else j++;
-
+            
+            console.log(count);
         }
         
     }
