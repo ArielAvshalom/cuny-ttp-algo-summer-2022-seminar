@@ -16,6 +16,7 @@ const find_level_averages = function(root) {
   // console.log(root)
   console.log(root.value)
   console.log(root.left.left.value);
+  while(Object.keys())
   console.log(Object.values(root.left.left))
   // TODO: Write your code here
   return result;
