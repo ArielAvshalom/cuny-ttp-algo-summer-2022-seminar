@@ -12,10 +12,24 @@ class TreeNode {
   }
 };
 
+function find_minimum_depth(root) {
+if (root === null) return 0;
 
-const find_minimum_depth = function(root) {
-  // TODO: Write your code here
-  return -1;
+let min = 1;
+const queue = [[root, 1]]; 
+
+while (queue.length !== 0) {
+  const [node, depth] = queue.shift();
+  min = Math.min(min, depth); 
+  if (node.left) {
+    queue.push([node.left, depth + 1]);
+  } 
+  if (node.right) {
+    queue.push([node.right, depth + 1]);
+  } 
+}
+
+return min;
 };
 
 

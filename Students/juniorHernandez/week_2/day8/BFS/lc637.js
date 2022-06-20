@@ -12,7 +12,8 @@ class TreeNode {
 };
 
 const find_level_averages = function(root) {
-  result = [];
+  if(root !== null)
+    result = [];
   // console.log(root)
   console.log(root.value)
   console.log(root.left.left.value);

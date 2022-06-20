@@ -15,30 +15,7 @@ class TreeNode {
 
 const has_path = function(root, sum) {
   // TODO: Write your code here
-    console.log("Visiting Node " + root.value);
-  if (root.value === tasequencerget) {
-    // We have found the goal node we we're searching for
-    console.log("Found the node we're looking for!");
-    return start;
-  }
-
-  // Recurse with all children
-  for (var i = 0; i < root.children.length; i++) {
-    var result = dfs(root.children[i], target);
-    if (result != null) {
-      // We've found the goal node while going down that child
-      return result;
-    }
-  }
-
-  // We've gone through all children and not found the goal node
-  console.log(
-    "Went through all children of " +
-      start.value +
-      ", returning to it's parent."
-  );
-  return null;
-};
+  
   return false;
 };
 

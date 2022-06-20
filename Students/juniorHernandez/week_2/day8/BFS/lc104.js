@@ -13,8 +13,8 @@ class TreeNode {
 function find_maximum_depth(root) {
   if (root === null) return 0; //if the root is null, there is no element in the tree, so the depth is 0.
 
-  let max = 0;
-  const queue = [[root, 1]]; //we making a queue FIFO, adding the root as our first element
+  let max = 1;
+  const queue = [[root, 1]]; //we making a queue FIFO, adding the root as our first element with the depth of 1.
 
   while (queue.length !== 0) {//while we have more elements in our queue
     const [node, depth] = queue.shift(); //assign node the value of the first element of the queue and remove that element from the queue. This is the one we will search for
