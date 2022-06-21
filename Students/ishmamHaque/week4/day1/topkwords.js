@@ -30,6 +30,7 @@ Follow-up: Could you solve it in O(n log(k)) time and O(n) extra space?
  * @param {number} k
  * @return {string[]}
  */
+//First I put my functional solution, then the answer//
  var topKFrequent = function(words, k) {
     //todo your code here
    let arrlength=words.length;
