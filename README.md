@@ -220,3 +220,6 @@ Read up on and relearn materials from Data Structures and Algorithms Courses
 
 |     Day     |             Topic           |              Recording Links        |    Reading/Useful Material        |       Course Materials |Classwork         |  Assignment |
 | :---------: | :-------------: | :------------------: | :------------: | :---------: | :------: | :---: |
+||||||||
+||||||||
+|||[:tv:](https://us02web.zoom.us/rec/share/vCK9g1qOG4gnOQVnVEzWk5jdPBApn1NGkBHwGK1usduIn_dMegeX1s9yo6Mv7R4o.JrzH8iNPtbNw59ZA)|||||
