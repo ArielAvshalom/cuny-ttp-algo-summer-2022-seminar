@@ -222,3 +222,108 @@ Read up on and relearn materials from Data Structures and Algorithms Courses
 | :---------: | :-------------: | :------------------: | :------------: | :---------: | :------: | :---: |
 |||[:tv:](https://drive.google.com/drive/folders/1HmL99b0nUUOJOltmxOispwKORyC17H-i?usp=sharing)|||||
 |||[:tv:](https://drive.google.com/drive/folders/1oUB_RvgDSI6sLN1Ql1--Sg1xm0HuzdUN?usp=sharing)|||||
+
+
+
+### /// Week Five & Beyond /// --> Class is over, but, the work is just beginning!
+
+#### /// Sliding Window ///
+- [] No-repeat Substring (hard): LC #3
+- [] Longest Substring with Same Letters after Replacement (hard)
+- [] Longest Subarray with Ones after Replacement (hard): LC #424 
+- [] Find Permutation (hard): LC #567 & LC #1004 
+- [] Find String Anagrams (hard): LC #438
+- [] Smallest Window Containing Substring (hard): LC #76
+- [] Words Concatenation (hard): LC #30
+
+#### /// Two Pointers ///
+- [] Quadruple Sum to Target (medium): LC #18 
+- [] Comparing Strings containing Backspaces (medium): LC #844 
+- [] Minimum Window Sort (medium): LC #581
+
+#### /// Fast & Slow Pointers ///
+- [] Palindrome LinkedList (medium): LC #234
+- [] Rearrange a LinkedList (medium): LC #143
+- [] Cycle in a Circular Array (hard): LC #457
+
+#### /// Merge Intervals ///
+- [] Minimum Meeting Rooms (hard): LC #253
+- [] Maximum CPU Load (hard)
+- [] Employee Free Time (hard): LC #759
+
+#### /// Cyclic Sort ///
+- [] Find the Corrupt Pair (easy): LC #645
+- [] Find the Smallest Missing Positive Number (medium): LC #41
+- [] Find the First K Missing Positive Numbers (hard)
+
+#### /// In Place Reversal of a LL ///
+- [] Reverse Alternating K-element Sub-list (medium)
+- [] Rotate a LinkedList (medium): LC #61
+
+#### /// Trees: BFS ///
+- [] Connect All Level Order Siblings (medium)
+- [] Right View of a Binary Tree (easy): LC #199
+
+#### /// Trees: DFS ///
+- [] Tree Diameter (medium): LC #543
+- [] Path with Maximum Sum (hard): LC #124
+
+#### /// Heaps ///
+- [] Maximize Capital (hard): LC #502
+- [] Next Interval (hard): LC #436
+
+#### /// Subsets ///
+- [] Balanced Parentheses (hard): LC #22
+- [] Unique Generalized Abbreviations (hard): LC #320 
+- [] Evaluate Expression (hard): LC #241
+- [] Structurally Unique Binary Search Trees (hard): LC #95
+- [] Count of Structurally Unique Binary Search Trees (hard): LC #96
+
+#### /// Modified Binary Search ///
+- [] Search in a Sorted Infinite Array (medium): LC #702 
+- [] Minimum Difference Element (medium): LC #658 (k == 1) 
+- [] Bitonic Array Maximum (easy)
+- [] Search Bitonic Array (medium)
+- [] Search in Rotated Array (medium): LC #33 & LC #81
+- [] Rotation Count (medium): LC #153 & LC #154
+
+#### /// Bitwise XOR /// --> Low Chances of
+- [] Two Single Numbers (medium): LC #260 
+- [] Complement of Base 10 Number (medium): LC #476 
+- [] Problem Statement (hard): LC #832
+
+#### /// Top "K" Elements ///
+- [] Kth Smallest Number (easy): LC #215
+- [] 'K' Closest Points to the Origin (easy): LC #973
+- [] Connect Ropes (easy): LC #1167
+- [] Top 'K' Frequent Numbers (medium): LC #347
+- [] Frequency Sort (medium): LC #451
+- [] Kth Largest Number in a Stream (medium): LC #703
+- [] 'K' Closest Numbers (medium): LC #658
+- [] Maximum Distinct Elements (medium)
+- [] Sum of Elements (medium)
+- [] Rearrange String (hard): LC #767
+- [] Rearrange String K Distance Apart (hard): LC #358
+- [] Scheduling Tasks (hard): LC #621
+- [] Frequency Stack (hard): LC #895
+
+#### /// K-Way Merge ///
+- [] Kth Smallest Number in M Sorted Lists (Medium)
+- [] Kth Smallest Number in a Sorted Matrix (Hard): LC #378
+- [] Smallest Number Range (Hard): LC #632
+- [] Problem K Pairs with Largest Sums (Hard): LC $373
+
+#### /// Knapsack (Dynamic Programming) ///
+- [] Equal Subset Sum Partition (medium): LC #416 
+- [] Subset Sum (medium)
+- [] Minimum Subset Sum Difference (hard) 
+- [] Count of Subset Sum (hard)
+- [] Target Sum (hard): LC #494
+
+#### /// Topological Sort (Graphs) ///
+- [] Tasks Scheduling (medium): LC #207
+- [] Tasks Scheduling Order (medium): LC #210
+- [] All Tasks Scheduling Orders (hard): LC #210 (output all possible solutions)
+- [] Alien Dictionary (hard): LC #269
+- [] Reconstructing a Sequence (hard): LC #444
+- [] Minimum Height Trees (hard): LC #310
