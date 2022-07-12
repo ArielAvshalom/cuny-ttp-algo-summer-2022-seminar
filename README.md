@@ -181,13 +181,25 @@ Class Session 6: Special Teaching Session & Brainstorm a Problem Idea Session
 
 CLass Session 7: Sliding Window
 
-Class Session 8: BFS and DFS Trees
+Class Session 8: BFS Trees
 
-Class Session 9: Review of Materials and Prep for Interview Sessions
+Class Session 9: DFS Trees
+
+Class Session 10: Mob programming, Subsets & Review
 
 </details>
 
 ## Week 3
+
+<details><summary>Details</summary>
+  
+Class Session 11: K Frequent Pattern
+  
+Class Session 12: How to work with Graph Grids
+  
+Class Session 13: Thank you and Exit Assessment
+  
+</details>
 
 ## :school: Curriculum
 
