@@ -222,7 +222,7 @@ Read up on and relearn materials from Data Structures and Algorithms Courses
 | :---------: | :-------------: | :------------------: | :------------: | :---------: | :------: | :---: |
 |11 - June 21|K Frequent Pattern|[:tv:](https://drive.google.com/drive/folders/1HmL99b0nUUOJOltmxOispwKORyC17H-i?usp=sharing)||[K Frequent Pattern](https://github.com/ArielAvshalom/cuny-ttp-algo-summer-2022-seminar/blob/main/Presentations/The%20K-Frequent%20Pattern.pptx)||[K Frequent Pattern](https://github.com/ArielAvshalom/cuny-ttp-algo-summer-2022-seminar/tree/main/Assignments/KFrequentElements)|
 |12 - June 22|A general purpose method to solve grid based graph problems|[:tv:](https://drive.google.com/drive/folders/1oUB_RvgDSI6sLN1Ql1--Sg1xm0HuzdUN?usp=sharing)|[Great material on graph algorithms](https://www.youtube.com/watch?v=DgXR2OWQnLc&list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)||||
-|13 - June 23|Thank you for participating & exit assessment|||||Work on what you missed (solutions to most questions posted) and continue working with the TTP team to secure a job. The questions below are also great practice! Try making your own interview problems and think like an interviewer!|
+|13 - June 23|Thank you for participating & exit assessment|||||Work on what you missed ([solutions](https://github.com/ArielAvshalom/cuny-ttp-algo-summer-2022-seminar/tree/main/assignment_solutions) to most questions posted) and continue working with the TTP team to secure a job. The questions below ⏬ are also great practice! Try making your own interview problems and think 🤔 like an interviewer!|
 
 
 
